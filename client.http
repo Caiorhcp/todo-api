@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:8000/api/v1
+
+GET {{baseUrl}}/tasks
+
+###
+
+GET {{baseUrl}}/tasks/qweqweqwe
+
+###
+
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+    "name": "Fazer Pão"
+}
